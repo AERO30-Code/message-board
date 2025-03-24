@@ -1,0 +1,112 @@
+/* 全域樣式 */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* 導覽列樣式 */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* 導覽列用戶頭像 */
+.nav-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #6c757d;
+}
+
+/* 頁面內容樣式 */
+.page-content {
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* 訪客計數器樣式 */
+.navbar-text .badge {
+    font-size: 0.9rem;
+    padding: 6px 10px;
+}
+
+/* 留言區樣式 */
+.message-container {
+    min-height: 300px;
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #e9ecef;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #f8f9fa;
+}
+
+/* 留言樣式 */
+.message {
+    background-color: white;
+    border-left: 4px solid #007bff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* 留言頭像樣式 */
+.message-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #f0f0f0;
+}
+
+.message-content {
+    padding-left: 5px;
+}
+
+/* 個人資料區塊樣式 */
+.profile-image {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+#profile-view-mode h4 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+#profile-edit-mode {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+/* 按鈕樣式 */
+.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+}
+
+/* 模態對話框樣式 */
+.modal-content {
+    border-radius: 8px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e9ecef;
+}
+
+/* 響應式調整 */
+@media (max-width: 768px) {
+    .profile-image {
+        max-width: 200px;
+        margin: 0 auto 15px;
+    }
+}
